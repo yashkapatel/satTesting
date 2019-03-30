@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="321" started-at="2019-03-30T21:14:55Z" finished-at="2019-03-30T21:14:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="321" started-at="2019-03-30T21:14:55Z" finished-at="2019-03-30T21:14:55Z">
+      <class name="com.web.testing.SatTesting.SWSprint1">
+        <test-method status="PASS" signature="learnDatabase()[pri:0, instance:com.web.testing.SatTesting.SWSprint1@cb5822]" name="learnDatabase" duration-ms="306" started-at="2019-03-30T18:14:55Z" finished-at="2019-03-30T18:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnDatabase -->
+      </class> <!-- com.web.testing.SatTesting.SWSprint1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

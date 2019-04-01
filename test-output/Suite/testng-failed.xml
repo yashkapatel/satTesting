@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.web.testing.SatTesting.SWSprint1">
+      <class name="com.web.testing.testcases.SWSprint2">
         <methods>
-          <include name="learnDatabase"/>
+          <include name="chekinLogin"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.web.testing.SatTesting.SWSprint1 -->
+      </class> <!-- com.web.testing.testcases.SWSprint2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

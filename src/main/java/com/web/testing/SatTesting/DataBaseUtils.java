@@ -5,6 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Arrays;
 
 public class DataBaseUtils {
 
@@ -31,14 +32,14 @@ public class DataBaseUtils {
 		return totalRows;
 	}
 
-	public Object[][] executeReadQuery(String query, boolean... optionalFlag) throws SQLException {
+	public String[][] executeReadQuery(String query, boolean... optionalFlag) throws SQLException {
 		Statement statement = connect.createStatement();
 		ResultSet resultSet = statement.executeQuery(query);
 		int columnCount = resultSet.getMetaData().getColumnCount();
 		resultSet.last();
 		int rowCount = resultSet.getRow();
 		resultSet.beforeFirst();
-		Object[][] mydata = new Object[rowCount][columnCount];
+		String[][] mydata = new String[rowCount][columnCount];
 		int rowNumber = 0;
 		while (resultSet.next()) {
 			System.out.println("\n Row: " + rowNumber);
@@ -46,12 +47,14 @@ public class DataBaseUtils {
 				mydata[rowNumber][i] = resultSet.getString(i + 1);
 				if(optionalFlag.length == 0) {
 					System.out.println("[" + rowNumber + "]" + "[" + i + "] - [ " + resultSet.getString(i + 1) + " ]");
+					
 				}
 			}
 			rowNumber++;
 
 		}
 		totalRows = mydata.length;
+		ReporUtils.logMessage(Arrays.deepToString(mydata));
 		return mydata;
 	}
 

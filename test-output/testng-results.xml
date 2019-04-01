@@ -1,17 +1,357 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="9" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="321" started-at="2019-03-30T21:14:55Z" finished-at="2019-03-30T21:14:55Z">
+  <suite name="Suite" duration-ms="1726" started-at="2019-03-31T19:45:17Z" finished-at="2019-03-31T19:45:19Z">
     <groups>
+      <group name="functional">
+        <method signature="SWSprint1.learnDatabase()[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnDatabase" class="com.web.testing.testcases.SWSprint1"/>
+        <method signature="SWSprint1.learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnExcelRead" class="com.web.testing.testcases.SWSprint1"/>
+        <method signature="SWSprint2.chekinLogin()[pri:0, instance:com.web.testing.testcases.SWSprint2@5891e32e]" name="chekinLogin" class="com.web.testing.testcases.SWSprint2"/>
+        <method signature="SWSprint3.sprint3Test()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="sprint3Test" class="com.web.testing.testcases.SWSprint3"/>
+        <method signature="SWSprint3.sprint3Test1()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="sprint3Test1" class="com.web.testing.testcases.SWSprint3"/>
+      </group> <!-- functional -->
+      <group name="smoke">
+        <method signature="SWSprint1.learnDatabase()[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnDatabase" class="com.web.testing.testcases.SWSprint1"/>
+        <method signature="SWSprint1.learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnExcelRead" class="com.web.testing.testcases.SWSprint1"/>
+        <method signature="SWSprint2.chekinLogin()[pri:0, instance:com.web.testing.testcases.SWSprint2@5891e32e]" name="chekinLogin" class="com.web.testing.testcases.SWSprint2"/>
+        <method signature="SWSprint3.sprint3Test()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="sprint3Test" class="com.web.testing.testcases.SWSprint3"/>
+        <method signature="SWSprint3.sprint3Test1()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="sprint3Test1" class="com.web.testing.testcases.SWSprint3"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="321" started-at="2019-03-30T21:14:55Z" finished-at="2019-03-30T21:14:55Z">
-      <class name="com.web.testing.SatTesting.SWSprint1">
-        <test-method status="PASS" signature="learnDatabase()[pri:0, instance:com.web.testing.SatTesting.SWSprint1@cb5822]" name="learnDatabase" duration-ms="306" started-at="2019-03-30T18:14:55Z" finished-at="2019-03-30T18:14:55Z">
+    <test name="Test" duration-ms="1726" started-at="2019-03-31T19:45:17Z" finished-at="2019-03-31T19:45:19Z">
+      <class name="com.web.testing.testcases.SWSprint2">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint2@5891e32e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint2.chekinLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="chekinLogin()[pri:0, instance:com.web.testing.testcases.SWSprint2@5891e32e]" name="chekinLogin" duration-ms="4" started-at="2019-03-31T19:45:19Z" description="Checking Login Function Test" finished-at="2019-03-31T19:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekinLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint2@5891e32e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chekinLogin status=SUCCESS method=SWSprint2.chekinLogin()[pri:0, instance:com.web.testing.testcases.SWSprint2@5891e32e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.web.testing.testcases.SWSprint2 -->
+      <class name="com.web.testing.testcases.SWSprint3">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint3.sprint3Test()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sprint3Test()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="sprint3Test" duration-ms="9" started-at="2019-03-31T19:45:19Z" description="Checking Login Function Test" finished-at="2019-03-31T19:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sprint3Test -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sprint3Test status=SUCCESS method=SWSprint3.sprint3Test()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint3.sprint3Test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="sprint3Test1()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="sprint3Test1" duration-ms="3" started-at="2019-03-31T19:45:19Z" description="Checking Login Function Test" finished-at="2019-03-31T19:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sprint3Test1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sprint3Test1 status=SUCCESS method=SWSprint3.sprint3Test1()[pri:0, instance:com.web.testing.testcases.SWSprint3@cb0ed20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.web.testing.testcases.SWSprint3 -->
+      <class name="com.web.testing.testcases.SWSprint1">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2019-03-31T19:45:17Z" finished-at="2019-03-31T19:45:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint1.learnDatabase() throws java.sql.SQLException,java.lang.InstantiationException,java.lang.IllegalAccessException,java.lang.ClassNotFoundException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="learnDatabase()[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnDatabase" duration-ms="483" started-at="2019-03-31T19:45:17Z" description="Read Database Test" finished-at="2019-03-31T19:45:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- learnDatabase -->
-      </class> <!-- com.web.testing.SatTesting.SWSprint1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:18Z" finished-at="2019-03-31T19:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=learnDatabase status=SUCCESS method=SWSprint1.learnDatabase()[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint1.learnExcelRead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnExcelRead" duration-ms="17" started-at="2019-03-31T19:45:19Z" description="Read Excel Test" data-provider="readExcelTest" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[741202.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Software Developer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[90000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnExcelRead -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=learnExcelRead status=SUCCESS method=SWSprint1.learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint1.learnExcelRead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnExcelRead" duration-ms="4" started-at="2019-03-31T19:45:19Z" description="Read Excel Test" data-provider="readExcelTest" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[636363.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dharmik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Software Tester]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[80000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnExcelRead -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=learnExcelRead status=SUCCESS method=SWSprint1.learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint1.learnExcelRead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnExcelRead" duration-ms="6" started-at="2019-03-31T19:45:19Z" description="Read Excel Test" data-provider="readExcelTest" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[763525.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rutu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Project Manager]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[150000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnExcelRead -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="afterMethod" is-config="true" duration-ms="3" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=learnExcelRead status=SUCCESS method=SWSprint1.learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.web.testing.testcases.SWSprint1.learnExcelRead(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="learnExcelRead" duration-ms="2" started-at="2019-03-31T19:45:19Z" description="Read Excel Test" data-provider="readExcelTest" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[38274.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Parth]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Student]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnExcelRead -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=learnExcelRead status=SUCCESS method=SWSprint1.learnExcelRead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.web.testing.testcases.SWSprint1@7a30d1e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.web.testing.testcases.SWSprint1 -->
+      <class name="com.web.testing.testcases.BaseCase">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.web.testing.testcases.BaseCase@569cfc36]" name="beforeSuite" is-config="true" duration-ms="403" started-at="2019-03-31T19:45:17Z" finished-at="2019-03-31T19:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.web.testing.testcases.BaseCase@569cfc36]" name="afterSuite" is-config="true" duration-ms="1264" started-at="2019-03-31T19:45:19Z" finished-at="2019-03-31T19:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.web.testing.testcases.BaseCase -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
